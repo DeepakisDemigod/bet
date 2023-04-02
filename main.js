@@ -34,6 +34,7 @@ const bet = () => {
   const result = outcomes[Math.floor(Math.random() * outcomes.length)];
   if (result === guess) {
     alert(`You got it! You won ${2 * betAmount}.`);
+    document.getElementById('balance').value = newBalance - newLoan;
     document.getElementById('balance').value = balance + 2 * betAmount.toFixed(2);
   } else if (result !== guess) {
     document.getElementById('balance').value = balance - betAmount.toFixed(2);
