@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1XBET</title>
+  <link rel="stylesheet" id="themeStyleSheetLink"  href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="money">
+  <div class="balance">
+    <h4>Balance Rs.</h4><input id="balance" type="number" value="10000" readonly>
+  </div>
+  <div class="loan">
+    <h4>Lost Rs.</h4><input id="loan" type="number" value="0" readonly>
+  </div>
+ </div>
+  <div>
+      <h3>Choose Head or Tail</h3>
+      <div class="Input">
+        <input class="label" type="text" value="Name" readonly >
+        <input class="field" id="name">
+      </div>
+      <div class="Input">
+        <input class="label" type="text" value="Guess" readonly >
+        <input class="field" id="guess">
+      </div>
+      <div class="Input">
+        <input class="label" type="text" value="Bet" readonly >
+        <input type="number" class="field" id="betAmount">
+      </div>
+      <div>
+        <button onClick="bet()">BET NOW</button>
+      </div>
+  </div>
+  
+  <div class="ThemeSelection">
+    <input type="checkbox" id="checkbox"><span>Dark Theme</span>
+  </div>
+  
+  <script src="main.js"></script>
+  <script src="theme.js"></script>
+  <script src="bt.js"></script>
+</body>
+</html>
