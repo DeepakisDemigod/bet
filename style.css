@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.money {
+  display: flex;
+  flex-direction: column;
+} 
+
+.money .loan {
+  display: flex;
+}
+
+
+
+.Input {
+  display: flex;
+}
+
+.Input .label {
+  background: transparent;
+  width: 15%;
+}
+
+.Input .field {
+  
+}
+
+.balance {
+  display: flex;
+  align-items: center;
+}
+
+.ThemeSelection {
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+}
