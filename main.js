@@ -15,8 +15,8 @@ const bet = () => {
     return;
   }
   
-  if (guess === 'h') {
-  } else if (guess === 't') {
+  if (guess === 'h' || guess === 'H' || guess === 'head' || guess === 'Head') {
+  } else if (guess === 't' || guess === 'T' || guess === 'tail' || guess === 'Tail') {
   } else {
     alert('only h and t are valid')
     return;
